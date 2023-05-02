@@ -1,4 +1,4 @@
-data "aws_ami" "app_ami" {
+/*data "aws_ami" "app_ami" {
   most_recent = true
 
   filter {
@@ -92,4 +92,4 @@ module "blog_sg" {
   ingress_cidr_blocks = ["0.0.0.0/0"]
   egress_rules = ["all-all"]
   egress_cidr_blocks = ["0.0.0.0/0"]
-}
+}*/
